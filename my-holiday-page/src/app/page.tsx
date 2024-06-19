@@ -15,7 +15,7 @@ const Footer: React.FC = () => (
       The holiday data is provided by the <a href="https://holidayapi.com/" target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-300">Holiday API</a>. Please refer to their <a href="https://holidayapi.com/policies" target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-300">API policies</a> for more information.
     </p>
     <p className="text-sm md:text-base">
-      For any issues or feedback, feel free to <a href="mailto:danielsantiago1230@gmail.com" className="underline hover:text-gray-300">contact us</a>.
+      For any issues or feedback, feel free to <a href="mailto:danielsantiago1230@gmail.com" className="underline hover:text-gray-300">contact me</a>.
     </p>
   </footer>
 );
