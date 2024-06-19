@@ -56,3 +56,24 @@ npm run dev
 ```
 
 5. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
+
+## Styling
+The application is styled using Tailwind CSS to achieve a responsive and modern design. Key components are styled to ensure a consistent look and feel across the application.
+
+## API Integration
+The application uses the `fetchHolidays` function to fetch holiday data from the Holiday API. This function handles errors and returns the fetched data.
+
+## API Route
+The API route handles GET requests to fetch holiday data. It checks for the API key, fetches the data, and handles any errors that may occur.
+
+## Components
+The project includes the following components:
+
+- Home: The home page component.
+- NavLink: A reusable component for navigation links.
+- Footer: A reusable component for the footer content.
+- Holidays: The holidays page component.
+- LoadingIndicator: Displays a loading state while fetching data.
+- ErrorMessage: Displays an error message if fetching data fails.
+- HolidayCard: Displays individual holiday details and opens a Google search in a new tab when clicked.
+- MonthSection: Groups holidays by month and displays them in a grid.
