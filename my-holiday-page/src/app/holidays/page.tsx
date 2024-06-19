@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import { Holiday } from '../../services/holidays';
+import Footer from '../components/Footer';
 
 const formatDate = (dateString: string) => {
     const options: Intl.DateTimeFormatOptions = { year: 'numeric', month: 'long', day: 'numeric' };
@@ -99,6 +100,7 @@ const Holidays: React.FC = () => {
                     <MonthSection key={month} month={month} holidays={holidaysByMonth[month]} />
                 ))}
             </div>
+            <Footer />
         </div>
     );
 };
